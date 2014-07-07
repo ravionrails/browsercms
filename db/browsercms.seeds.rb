@@ -56,6 +56,6 @@ Cms::Group.all.each { |g| g.sections = Cms::Section.all }
 
 unless Cms::DataLoader.silent_mode
   puts "*************************************************"
-  puts "* YOUR CMS username/password is: cmsadmin/#{pwd}"
+  puts "* admin@rane.com will acts as cmsadmin"
   puts "*************************************************"
 end
